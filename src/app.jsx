@@ -1,4 +1,5 @@
 import './app.css';
+import TodoList from './components/TodoList/TodoList';
 
 function App() {
   const todo = ['장보기', '출근하기'];
@@ -6,9 +7,7 @@ function App() {
 
   return (
     <div>
-      <ul>
-        <li>{list}</li>
-      </ul>
+      <TodoList />
     </div>
   );
 }
